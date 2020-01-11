@@ -1,8 +1,5 @@
 $(function() {
-
-
-
-
+    
     /* Fixed Header */
     let nav = $("#nav");
     let navToggle = $("#navToggle");
@@ -44,8 +41,7 @@ $(function() {
     });
 
     /* Nav Toggle */
-
-
+    
     navToggle.on("click", function(event) {
         event.preventDefault();
 
@@ -63,12 +59,5 @@ $(function() {
         arrows: false,
         dots: true
 });
-
-
-
-
-
-
-
 
 });
